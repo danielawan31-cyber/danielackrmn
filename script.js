@@ -9,7 +9,7 @@ document.querySelectorAll("nav a").forEach(link => {
   link.addEventListener("click", () => nav.classList.remove("show"));
 });
 
-const words = ["Game dev", "Web Designer", "3d Artist"];
+const words = ["Game dev", "Web Designer", "3d Artists"];
 let wordIndex = 0;
 let charIndex = 0;
 let deleting = false;
